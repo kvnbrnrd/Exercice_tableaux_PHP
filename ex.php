@@ -101,12 +101,17 @@ $arr = [
 	"arbitraire" => 5,
 ];
 
+foreach ($arr as $clef => $valeur)
+{
+	echo "La valeur de " . $clef . " " . " est : " . $valeur . '</br>';
+}
+
 
 // Fin Niveau 4
 
 // Début Niveau 5
 
-echo "Niveau 5".'</p>';
+echo "</p>Niveau 5".'</p>';
 
 $arr = [
 	"coucou72" => 10,
