@@ -93,6 +93,8 @@ echo "La valeur de " . $name[$i] . " " . " est : " . $tableau[$i] . '</br>';
 
 echo "</p>Niveau 4".'</p>';
 
+echo "Boucle foreach :</p>";
+
 $arr = [
 	"coucou72" => 10,
 	"vie_oiseau" => 15,
