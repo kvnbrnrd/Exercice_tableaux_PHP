@@ -115,6 +115,8 @@ foreach ($arr as $clef => $valeur)
 
 echo "</p>Niveau 5".'</p>';
 
+echo "Boucle while :</p>";
+
 $arr = [
 	"coucou72" => 10,
 	"vie_oiseau" => 15,
@@ -122,6 +124,17 @@ $arr = [
 	"bonjour" => 20,
 	"arbitraire" => 5,
 ];
+
+$tableau = array_values($arr);
+$name = array_keys($arr);
+$i = 0;
+
+while($i < 5)
+{
+	echo "La valeur de " . $name[$i] . " " . " est de : " . $tableau[$i] . '</br>';
+	$i++;
+}
+
 
 
 // Fin Niveau 5
