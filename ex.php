@@ -135,9 +135,6 @@ while($i < 5)
 	$i++;
 }
 
-
-
 // Fin Niveau 5
-
 
 ?>
