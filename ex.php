@@ -18,11 +18,11 @@ echo "Niveau 1".'</p>';
 	$ligne5 ['valeur'] = '5';
 
 
-	echo "La valeur de ". $ligne1 ['nom'] . " est de " . $ligne1 ['valeur'] .'</br>';
-	echo "La valeur de ". $ligne2 ['nom'] . " est de " . $ligne2 ['valeur'] .'</br>';
-	echo "La valeur de ". $ligne3 ['nom'] . " est de " . $ligne3 ['valeur'] .'</br>';
-	echo "La valeur de ". $ligne4 ['nom'] . " est de " . $ligne4 ['valeur'] .'</br>';
-	echo "La valeur de ". $ligne5 ['nom'] . " est de " . $ligne5 ['valeur'] .'</p>';
+	echo "La valeur de ". $ligne1 ['nom'] . " est de : " . $ligne1 ['valeur'] .'</br>';
+	echo "La valeur de ". $ligne2 ['nom'] . " est de : " . $ligne2 ['valeur'] .'</br>';
+	echo "La valeur de ". $ligne3 ['nom'] . " est de : " . $ligne3 ['valeur'] .'</br>';
+	echo "La valeur de ". $ligne4 ['nom'] . " est de : " . $ligne4 ['valeur'] .'</br>';
+	echo "La valeur de ". $ligne5 ['nom'] . " est de : " . $ligne5 ['valeur'] .'</p>';
 
 // Fin Niveau 1
 
@@ -52,15 +52,15 @@ $tableau[4] ['valeur'] = '5';
 
 
 
-echo "La valeur de ". $tableau[0] ['nom'] . " est de " . $tableau[0] ['valeur'] .'</br>';
-echo "La valeur de ". $tableau[1] ['nom'] . " est de " . $tableau[1] ['valeur'] .'</p>';
+echo "La valeur de ". $tableau[0] ['nom'] . " est de : " . $tableau[0] ['valeur'] .'</br>';
+echo "La valeur de ". $tableau[1] ['nom'] . " est de : " . $tableau[1] ['valeur'] .'</p>';
 
 echo "Le sous-tableau ". $tableau[2] ['nom'] . " contient : " . '</br>'.
 "L'élément ". $sous_tableau[0] ['nom'] . " qui est " . $sous_tableau[0] ['valeur'] .'</br>' .
 "L'élément ". $sous_tableau[1] ['nom'] . " qui est " . $sous_tableau[1] ['valeur'] .'</p>' ;
 
-echo "La valeur de ". $tableau[3] ['nom'] . " est de " . $tableau[3] ['valeur'] .'</br>';
-echo "La valeur de ". $tableau[4] ['nom'] . " est de " . $tableau[4] ['valeur'] .'</p>';
+echo "La valeur de ". $tableau[3] ['nom'] . " est de : " . $tableau[3] ['valeur'] .'</br>';
+echo "La valeur de ". $tableau[4] ['nom'] . " est de : " . $tableau[4] ['valeur'] .'</p>';
 
 // Fin Niveau 2
 
@@ -84,7 +84,7 @@ $name = array_keys($arr);
 echo "Boucle for :</p>";
 for ($i = 0; $i < 5; $i++)
 {
-echo "La valeur de " . $name[$i] . " " . " est : " . $tableau[$i] . '</br>';
+echo "La valeur de " . $name[$i] . " " . " est de : " . $tableau[$i] . '</br>';
 }
 
 // Fin Niveau 3
@@ -105,7 +105,7 @@ $arr = [
 
 foreach ($arr as $clef => $valeur)
 {
-	echo "La valeur de " . $clef . " " . " est : " . $valeur . '</br>';
+	echo "La valeur de " . $clef . " " . " est de : " . $valeur . '</br>';
 }
 
 
