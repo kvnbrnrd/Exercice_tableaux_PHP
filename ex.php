@@ -68,13 +68,13 @@ echo "La valeur de ". $tableau[4] ['nom'] . " est de " . $tableau[4] ['valeur'] 
 
 echo "Niveau 3".'</p>';
 
-$arr = [
-	"coucou72" => 10,
-	"vie_oiseau" => 15,
-	"test_value50" => 25,
-	"bonjour" => 20,
-	"arbitraire" => 5,
-];
+// $arr = [
+// 	"coucou72" => 10,
+// 	"vie_oiseau" => 15,
+// 	"test_value50" => 25,
+// 	"bonjour" => 20,
+// 	"arbitraire" => 5,
+// ];
 
 
 // Fin Niveau 3
