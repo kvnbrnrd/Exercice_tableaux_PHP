@@ -1,6 +1,6 @@
 <?php
 // Début Niveau 1
-
+ 
 echo "Niveau 1".'</p>';
 	$ligne1 ['nom'] = 'coucou72'; 
 	$ligne1 ['valeur'] = '10';
@@ -68,26 +68,54 @@ echo "La valeur de ". $tableau[4] ['nom'] . " est de " . $tableau[4] ['valeur'] 
 
 echo "Niveau 3".'</p>';
 
-// $arr = [
-// 	"coucou72" => 10,
-// 	"vie_oiseau" => 15,
-// 	"test_value50" => 25,
-// 	"bonjour" => 20,
-// 	"arbitraire" => 5,
-// ];
+$arr = [
+	"coucou72" => 10,
+	"vie_oiseau" => 15,
+	"test_value50" => 25,
+	"bonjour" => 20,
+	"arbitraire" => 5,
+];
 
+$tableau = array_values($arr);
+$name = array_keys($arr);
+
+
+
+echo "Boucle for :</p>";
+for ($i = 0; $i < 5; $i++)
+{
+echo "La valeur de " . $name[$i] . " " . " est : " . $tableau[$i] . '</br>';
+}
 
 // Fin Niveau 3
 
 // Début Niveau 4
 
-echo "Niveau 4".'</p>';
+echo "</p>Niveau 4".'</p>';
+
+$arr = [
+	"coucou72" => 10,
+	"vie_oiseau" => 15,
+	"test_value50" => 25,
+	"bonjour" => 20,
+	"arbitraire" => 5,
+];
+
 
 // Fin Niveau 4
 
 // Début Niveau 5
 
 echo "Niveau 5".'</p>';
+
+$arr = [
+	"coucou72" => 10,
+	"vie_oiseau" => 15,
+	"test_value50" => 25,
+	"bonjour" => 20,
+	"arbitraire" => 5,
+];
+
 
 // Fin Niveau 5
 
